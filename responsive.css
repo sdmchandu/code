@@ -1,0 +1,339 @@
+/* ==========================================================================
+   CHANDANA - RESPONSIVE STYLESHEET
+   Mobile-First & Adaptive Breakpoints
+   Breakpoints: 1024px (Tablet Landscape), 860px (Tablet/Mobile Nav),
+                640px (Mobile Landscape), 480px (Mobile Portrait), 320px (Small Devices)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Tablet Landscape (<= 1024px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 2.75rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 24px;
+  }
+
+  .interests-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .interests-grid .interest-card:last-child {
+    grid-column: span 2;
+  }
+
+  .footer-top {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Medium Screen / Tablet Portrait (<= 860px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 860px) {
+  /* Navigation Bar Adaptations */
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .resume-cta {
+    display: none;
+  }
+
+  /* Section Spacing */
+  .section {
+    padding: 72px 0;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 60px 0 80px 0;
+  }
+
+  .hero-title {
+    font-size: 2.35rem;
+  }
+
+  .hero-institution {
+    font-size: 1.05rem;
+  }
+
+  .hero-quote {
+    padding: 16px 18px 16px 44px;
+  }
+
+  .quote-icon {
+    top: 14px;
+    left: 14px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .hero-quote p {
+    font-size: 1rem;
+  }
+
+  /* About Grid */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  /* Skills Grid */
+  .skills-main-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  /* Interests Grid */
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interests-grid .interest-card:last-child {
+    grid-column: auto;
+  }
+
+  /* Contact Grid */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  /* Footer */
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small Screen / Mobile Landscape (<= 640px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Hero Typography & CTAs */
+  .hero-title {
+    font-size: 1.95rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-meta-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .meta-separator {
+    display: none;
+  }
+
+  /* Timeline Adaptations */
+  .timeline-container::before {
+    left: 16px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 32px 1fr;
+    gap: 14px;
+  }
+
+  .timeline-content {
+    padding: 20px 16px;
+  }
+
+  .degree-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .degree-period {
+    text-align: left;
+  }
+
+  .degree-title {
+    font-size: 1.15rem;
+  }
+
+  /* Projects Card */
+  .project-card {
+    padding: 24px 18px;
+  }
+
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+  }
+
+  .project-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-footer .btn {
+    width: 100%;
+  }
+
+  /* Resume Modal */
+  .modal-backdrop {
+    padding: 12px;
+  }
+
+  .modal-header {
+    padding: 16px;
+  }
+
+  .modal-title {
+    font-size: 1.1rem;
+  }
+
+  .modal-body {
+    padding: 16px;
+  }
+
+  .resume-paper {
+    padding: 20px 16px;
+  }
+
+  .resume-name {
+    font-size: 1.4rem;
+  }
+
+  .resume-skill-bullets {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-entry-header {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Extra Small Devices / Mobile Portrait (<= 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .hero-greeting {
+    font-size: 1.15rem;
+  }
+
+  .hero-title {
+    font-size: 1.7rem;
+  }
+
+  .hero-institution {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    padding: 20px 16px;
+  }
+
+  .attributes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-controls {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .filter-btn {
+    width: 100%;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .contact-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .copy-btn {
+    align-self: flex-end;
+  }
+
+  .external-link-btn {
+    align-self: flex-end;
+  }
+
+  .back-to-top {
+    bottom: 16px;
+    left: 16px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .toast {
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Ultra-Compact Devices (<= 360px down to 320px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 360px) {
+  .status-pill {
+    font-size: 0.72rem;
+    padding: 4px 10px;
+  }
+
+  .location-pill {
+    font-size: 0.72rem;
+    padding: 4px 10px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .brand-text {
+    font-size: 1.1rem;
+  }
+}
