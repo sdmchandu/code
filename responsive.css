@@ -253,6 +253,7 @@
    Extra Small Devices / Mobile Portrait (<= 480px)
    -------------------------------------------------------------------------- */
 @media (max-width: 480px) {
+<<<<<<< HEAD
   .hero-avatar-frame {
     width: 96px;
     height: 96px;
@@ -263,6 +264,8 @@
     height: 130px;
   }
 
+=======
+>>>>>>> 8cea2779f386ffce1c4395c816c8b6a23fd25681
   .hero-greeting {
     font-size: 1.15rem;
   }
