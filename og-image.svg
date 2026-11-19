@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181C22"/>
+      <stop offset="100%" stop-color="#111418"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#2D3542" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="0" y1="510" x2="1200" y2="510" stroke="#2D3542" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="100" y1="0" x2="100" y2="630" stroke="#2D3542" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="1100" y1="0" x2="1100" y2="630" stroke="#2D3542" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Logo Mark -->
+  <rect x="140" y="120" width="76" height="76" rx="16" fill="url(#accent-grad)"/>
+  <text x="178" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">C</text>
+
+  <!-- Brand Label -->
+  <text x="240" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" fill="#F3F4F6">Chandana<tspan fill="#EA580C">.</tspan></text>
+
+  <!-- Subtitle Pill -->
+  <rect x="140" y="240" width="370" height="38" rx="19" fill="rgba(234, 88, 12, 0.15)" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="165" y="265" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#FB923C" letter-spacing="1">FIRST-YEAR MCA STUDENT • PIM UDUPI</text>
+
+  <!-- Main Heading -->
+  <text x="140" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">MCA Student &amp; Aspiring</text>
+  <text x="140" y="405" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900" fill="#FB923C">Software Developer</text>
+
+  <!-- Bio Quote -->
+  <text x="140" y="465" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-style="italic" fill="#9CA3AF">"Interested in developing web applications and problem solving."</text>
+
+  <!-- Footer Tags -->
+  <rect x="140" y="520" width="130" height="36" rx="8" fill="#1E232B" stroke="#2D3542"/>
+  <text x="205" y="543" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#F3F4F6" text-anchor="middle">Python (Basic)</text>
+
+  <rect x="285" y="520" width="130" height="36" rx="8" fill="#1E232B" stroke="#2D3542"/>
+  <text x="350" y="543" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#F3F4F6" text-anchor="middle">HTML (Basic)</text>
+
+  <rect x="430" y="520" width="120" height="36" rx="8" fill="#1E232B" stroke="#2D3542"/>
+  <text x="490" y="543" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#F3F4F6" text-anchor="middle">BCA 7.6 CGPA</text>
+
+  <rect x="565" y="520" width="165" height="36" rx="8" fill="#1E232B" stroke="#2D3542"/>
+  <text x="647" y="543" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#F3F4F6" text-anchor="middle">Udupi, Karnataka</text>
+</svg>
